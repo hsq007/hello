@@ -3,8 +3,15 @@
 ***************************************/
 #include <iostream>
 using namespace std;
-int main(int argc, char** argv)
+
+void test(void)
 {
+  cout << "test pengtx!" << endl;
+}
+
+int main(int argc, char **argv)
+{
+  test();
   cout << "hello world!" << endl;
   cout << "hsq, hello!" << endl;
   cout << "hello, evreyone!";
